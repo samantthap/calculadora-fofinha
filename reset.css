@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Chewy&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+--cor-de-fundo:#eccfd9;
+--rosa-font:#da5288;
+--rosa-clarinho:#f8bbd0;
+--branco:#fff;
+--rosa-bb:#f48fb1;
+--rosa-vibrante:#e91e63;
+--rosa-vibrante-hover: #c2185b;
+--cinza:#9e9e9e;
+--cinza-hover:#616161;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:var(--cor-de-fundo) ;
+    font-family: "Sour Gummy", sans-serif;
+  }
+  

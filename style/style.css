@@ -1,0 +1,111 @@
+
+@import url(reset.css);
+
+
+
+  .calculadora-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .calculadora-container-img {
+    display: flex; 
+    align-items: center;
+    gap: 10px; 
+}
+
+.icon-morango {
+  width: 100px;
+  height: auto;
+  transform: rotate(15deg);
+
+}
+
+  .calculadora {
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 55px;
+    width: 400px;
+    background-image: url(/src/morango-2.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5
+    
+
+  }
+  
+  h1{
+    margin-bottom: 20px;
+    color: var(--rosa-font);
+    text-align: center;
+    width: 400;
+    font-size: 50px;
+  }
+  
+  #display {
+    width: 100%;
+    height: 60px; 
+    padding:15x;
+    margin-bottom: 20px;
+    border: 2px solid var(--rosa-clarinho);
+    border-radius: 8px;
+    font-size: 1.5em;
+    text-align: right;
+  }
+  
+  .botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  button {
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.6em;
+    cursor: pointer;
+    background-color: var(--rosa-clarinho);
+    color: var(--branco);
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: var(--rosa-bb); 
+  }
+  
+  .igual {
+    background-color: var(--rosa-vibrante);
+
+  }
+  
+  .igual:hover {
+    background-color: var(--rosa-vibrante-hover); 
+  
+  }
+  
+  .limpar {
+    background-color: var(--cinza); 
+  }
+  
+  .limpar:hover {
+    background-color: var(--cinza-hover);
+  }
+
+
+  @media (max-width: 480px) {
+    .calculadora {
+        width: 300px;
+        padding: 15px;
+    }
+  }
+
+  h1 {
+    font-size: 35px;
+}
+.icon-morango {
+  width: 60px;
+  padding: 5px;
+}
